@@ -1,0 +1,33 @@
+/* 1. default theme, dark */
+
+body {
+  color: #ababab;
+  background-color: #101010;
+  font-family: sans-serif;
+}
+a, a:visited {
+  color: lightskyblue;
+}
+
+/* 2. OS theme preference is "light" */
+
+@media (prefers-color-scheme: light) {
+  :root:not([data-theme="dark"]) body {
+    color: black;
+    background-color: white;
+  }
+  :root:not([data-theme="dark"]) a, :root:not([data-theme="dark"]) a:visited {
+    color: lightskyblue;
+  }
+}
+
+/* 3. explicit "light" setting */
+
+:root[data-theme="light"] body {
+  color: black;
+  background-color: white;
+}
+
+:root[data-theme="light"] a, :root[data-theme="light"] a:visited {
+  color: blue;
+}
