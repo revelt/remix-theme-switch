@@ -1,10 +1,8 @@
-# remix-missing-link-load
+# remix-theme-switch
 
 CodeSandbox:
-https://codesandbox.io/s/charming-galileo-5mcxy?file=/app/root.tsx
+<https://codesandbox.io/s/charming-galileo-5mcxy?file=/app/root.tsx>
 
-![example](link-function-not-loading.gif)
+MVP of three-theme UI switching on [Remix](https://remix.run) framework.
 
-This repo is an MVP to illustrate a problem - routes' link function is not called (and routes' CSS file is not loaded) when page is rendered after POST-ing to itself (in this case, a basic cookie with UI theme preference).
-
-Otherwise, this is an MVP of three-theme UI switching on [Remix](https://remix.run) framework.
+Needs Remix >=1.4.1 to [work](https://github.com/remix-run/remix/issues/1326).
