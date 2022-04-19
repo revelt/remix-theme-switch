@@ -1,20 +1,18 @@
 import { useRef } from "react";
+import type { MetaFunction } from "@remix-run/node";
+import { ActionFunction, json, LinksFunction, LoaderFunction } from "@remix-run/node";
+
 import {
-  json,
-  Links,
   Form,
+  Links,
   LiveReload,
   Meta,
   Outlet,
   Scripts,
-  useSubmit,
-  LinksFunction,
   ScrollRestoration,
   useLoaderData,
-  LoaderFunction,
-  ActionFunction,
-} from "remix";
-import type { MetaFunction } from "remix";
+  useSubmit,
+} from "@remix-run/react";
 
 // -----------------------------------------------------------------------------
 
