@@ -1,11 +1,15 @@
 {
   "private": true,
-  "name": "remix-missing-link-load",
+  "name": "remix-theme-switch",
   "description": "a peculiar case of Remix links not loading from route pages after POSTing to itself",
   "author": {
     "name": "Roy Revelt",
     "email": "roy@codsen.com",
     "url": "https://codsen.com"
+  },
+  "repository": {
+    "type": "git",
+    "url": "https://github.com/revelt/remix-theme-switch.git"
   },
   "license": "Public domain",
   "scripts": {
